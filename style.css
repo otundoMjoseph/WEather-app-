@@ -1,0 +1,61 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for theme change */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+input[type="text"],
+button {
+    margin-bottom: 10px;
+}
+
+#weather-container {
+    text-align: center;
+}
+
+#weatherIcon {
+    display: none;
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+}
+
+/* Light Theme */
+body.light-mode {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+/* Dark Theme */
+body.dark-mode {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+/* Hourly Forecast Styling */
+.hourly-item {
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    margin: 5px;
+}
+
+.hourly-item img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Additional Styling for Bootstrap Form Switch */
+.form-check-label {
+    margin-left: 10px;
+}
